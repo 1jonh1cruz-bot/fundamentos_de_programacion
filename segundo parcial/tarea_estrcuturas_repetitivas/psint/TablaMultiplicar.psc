@@ -1,0 +1,19 @@
+Algoritmo TablaMultiplicar
+    Definir n, i Como Entero
+    
+    Repetir
+        Escribir "Ingrese un numero para ver su tabla (0 para salir):"
+        Leer n
+        
+        Si n <> 0 Entonces
+            Escribir "--- TABLA DEL ", n, " ---"
+            Para i <- 1 Hasta 10 Con Paso 1 Hacer
+                Escribir n, " x ", i, " = ", (n * i)
+            FinPara
+            Escribir ""
+        FinSi
+        
+    Hasta Que n = 0
+    
+    Escribir "Programa finalizado."
+FinAlgoritmo
